@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.search {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.login-container {
+  max-width: 350px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.app-root { min-height: 100vh; color: #111; }
+.header { display:flex; align-items:center; justify-content:space-between; padding:20px 40px; border-bottom:1px solid #eee; }
+.logo { font-weight:700; font-size:20px; }
+.icons a, .icons button { margin-left:16px; color:#111; text-decoration:none; background:transparent; border:none; font-weight:600; }
+.app-main { padding:28px 40px; }
+.hero { max-width:800px; margin:40px auto; text-align:center; }
+.hero h1 { font-size:40px; margin:8px 0; letter-spacing:1px; }
+.lead { font-size:18px; color:#444; }
+.btn { background:#111; color:#fff; padding:12px 18px; text-decoration:none; border-radius:6px; }
+.btn.ghost { background:transparent; border:1px solid #111; color:#111; margin-left:8px; }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; margin-top:20px; }
+.product-card { border:1px solid #eee; padding:12px; border-radius:8px; background:#fff; }
+.product-img { width:100%; height:200px; object-fit:cover; border-radius:6px; }
+.product-title { margin:8px 0 4px 0; font-size:16px; }
+.meta { color:#666; font-size:13px; }
+.price { margin-top:8px; font-weight:700; }
+.auth-form label { display:block; margin:8px 0; }
+.auth-form input, .auth-form textarea { width:100%; padding:10px; border:1px solid #ddd; border-radius:6px; }
+.sell-form label { display:block; margin:8px 0; }
+.nav-btn { cursor:pointer; }
